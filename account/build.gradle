@@ -2,8 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'org.greenrobot.greendao'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion project.properties.ANDROID_BUILD_TOOLS_VERSION
+    compileSdkVersion 27
 
     defaultConfig {
         applicationId "com.loubii.account"
