@@ -5,7 +5,7 @@ android {
     compileSdkVersion 27
 
     defaultConfig {
-        applicationId "com.loubii.account"
+        applicationId "com.junjiex.account"
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 1
