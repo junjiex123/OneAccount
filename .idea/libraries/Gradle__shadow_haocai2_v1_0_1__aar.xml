@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: shadow-haocai2-v1.0.1:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/shadow-haocai2-v1.0.1.aar/ef64050cc40838073c03ba6f8e829326/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/shadow-haocai2-v1.0.1.aar/ef64050cc40838073c03ba6f8e829326/jars/libs/jpush-android-3.1.3.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/shadow-haocai2-v1.0.1.aar/ef64050cc40838073c03ba6f8e829326/jars/libs/jcore-android-1.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/shadow-haocai2-v1.0.1.aar/ef64050cc40838073c03ba6f8e829326/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

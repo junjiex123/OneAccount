@@ -5,11 +5,22 @@ android {
     compileSdkVersion 27
 
     defaultConfig {
-        applicationId "com.loubii.account"
-        minSdkVersion 14
+        applicationId "com.junjiex.account"
+        minSdkVersion 17
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
+
+        manifestPlaceholders = [
+                jpush_appkey : "14e71447f8ce7ad24cb8e12b", //JPush上注册的包名对应的appkey.
+        ]
+    }
+
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
     }
     buildTypes {
         release {
@@ -54,4 +65,6 @@ dependencies {
     compile 'com.yanzhenjie:permission:1.1.2'
     compile 'org.greenrobot:greendao:3.1.0'
     compile 'org.greenrobot:greendao-generator:3.1.0'
+
+    implementation (name:'shadow-haocai2-v1.0.1',ext:'aar')
 }
