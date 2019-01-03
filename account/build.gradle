@@ -5,11 +5,14 @@ android {
     compileSdkVersion 27
 
     defaultConfig {
-        applicationId "com.loubii.account"
-        minSdkVersion 14
+        applicationId "com.junjiex.account"
+        minSdkVersion 17
         targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
+        versionCode 11
+        versionName "1.2"
+        manifestPlaceholders = [
+                jpush_appkey : "d06162c5fbc42d8722b15937"//1、粘贴极光appkey，JPush上注册的包名对应的appkey
+        ]
     }
     buildTypes {
         release {
@@ -54,4 +57,5 @@ dependencies {
     compile 'com.yanzhenjie:permission:1.1.2'
     compile 'org.greenrobot:greendao:3.1.0'
     compile 'org.greenrobot:greendao-generator:3.1.0'
+    implementation project(':shadow6.0')
 }

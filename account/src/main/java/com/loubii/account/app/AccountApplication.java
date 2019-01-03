@@ -3,9 +3,11 @@ package com.loubii.account.app;
 import android.app.Application;
 import android.content.Context;
 
+import com.ego.shadow.Shadow;
 import com.loubii.account.bean.AccountModel;
 import com.loubii.account.db.database.DBManager;
 import com.loubii.account.db.database.DbHelper;
+import com.loubii.account.ui.avtivity.MainTabActivity;
 
 /**
  * @author luo
@@ -29,6 +31,7 @@ public class AccountApplication extends Application {
         //初始化greendao
         DbHelper.getInstance().init(this);
 
+        Shadow.init(this,"1810111919", MainTabActivity.class);
     }
 
     public static DBManager<AccountModel, Long> getDbManager() {

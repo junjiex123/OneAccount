@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">钱小猪</string>
+    <string name="app_name">癞子</string>
     <string name="tab_name_bill">账单</string>
     <string name="tab_name_chart">图表</string>
     <string name="tab_name_add">记账</string>
@@ -64,7 +64,7 @@
     <string name="chart_account_total">累计记账</string>
     <string name="chart_account_max">单笔最大金额</string>
     <string name="current_balance">当前余额(元)</string>
-    <string name="balance_tixian">提现至微信</string>
+    <string name="balance_tixian">提现</string>
     <string name="card_detail_deposit">温馨提示：\n
     · 每个账户只能绑定一张储蓄卡\n
     · 绑定后该卡只能最为到账银行卡\n
